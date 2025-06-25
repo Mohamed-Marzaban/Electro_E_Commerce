@@ -32,4 +32,15 @@ This project demonstrates a fast, accessible, and modern UI with interactive com
 ```bash
 git clone https://github.com/Mohamed-Marzaban/Electro_E_Commerce.git
 cd Electro_E_Commerce
-npm install
+
+```
+---
+2. **Install dependencies**
+
+```bash
+npm i
+```
+---
+3. **Run main.html**
+
+
