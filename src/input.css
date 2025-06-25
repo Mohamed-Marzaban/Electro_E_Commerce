@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .tooltiptext::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent black transparent;
+    }
+    .tooltiptexttop::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+    .vertical-line::after {
+        content: '';
+        display: inline-block;
+        width: 1px; /* Thickness of the vertical line */
+        height: 50%; /* Full height of the element */
+        background-color: #e5e9ee; /* Color of the line */
+        position: absolute;
+        right: 0; /* Position it at the right end */
+        top: 25%; /* Start at the top */
+    }
+    .underlinee::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #fed700;
+        margin-top: 7px;
+        position: absolute;
+    }
+    .underlineee::after {
+        content: '';
+        display: block;
+        width: 35%;
+        height: 2px;
+        background-color: #fed700;
+        margin-top: 7px;
+        position: absolute;
+    }
+}
+
+/* Default indicator style */
+[data-carousel-slide-to] {
+    background-color: #bcbcbc; /* Default background color for inactive indicators */
+    
+    
+}
+
+/* Active indicator style */
+
+[aria-current="true"]{
+    background-color: #fed700; /* Replace with your desired active background color */
+    padding-left: 40px;
+}
+[data-carousel-slide-to]:hover {
+    background-color: #bcbcbc !important; /* Background color on hover */
+   
+}
