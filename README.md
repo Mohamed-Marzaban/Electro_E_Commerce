@@ -1,26 +1,35 @@
-# Electro_E_Commerce
+# Electro_E_Commerce  
 🛍️ Front-End E-Commerce Website
 
 A lightweight and responsive e-commerce front-end built using HTML, Tailwind CSS, and Alpine.js — no build tools or frameworks required.
 
 This project demonstrates a fast, accessible, and modern UI with interactive components and clean utility-based styling, ideal for small to medium-sized e-commerce shops.
 
-🔧 Tech Stack:
+---
 
-    HTML – Semantic, accessible markup
+### 🔧 Tech Stack
 
-    Tailwind CSS – Utility-first CSS for responsive and modern UI
+- **HTML** – Semantic, accessible markup  
+- **Tailwind CSS** – Utility-first CSS for responsive and modern UI  
+- **Alpine.js** – Lightweight JavaScript for interactivity without the overhead  
 
-    Alpine.js – Lightweight JavaScript for interactivity without the overhead
+---
 
-✨ Features:
+### ✨ Features
 
-    Product grid with category filters
+- Product grid with category filters  
+- Responsive navigation and layout  
+- Interactive shopping cart (add/remove items)  
+- Basic modal and dropdown interactions using Alpine.js  
+- Optimized for performance and mobile devices  
 
-    Responsive navigation and layout
+---
 
-    Interactive shopping cart (add/remove items)
+### 🚀 How to Use
 
-    Basic modal and dropdown interactions using Alpine.js
+1. **Clone the repository**
 
-    Optimized for performance and mobile devices
+```bash
+git clone https://github.com/Mohamed-Marzaban/Electro_E_Commerce.git
+cd Electro_E_Commerce
+npm install
