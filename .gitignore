@@ -1,0 +1,26 @@
+# Node modules (if used later)
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor settings
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+
+# Cache and temporary files
+*.tmp
+*.swp
+*.bak
+
+# Output folders (optional, if using build tools later)
+dist/
+build/
